@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+
+* {
+    user-select: none;
+}
+
+body,
+html {
+    overflow: hidden;
+}
+
+
+
+#container_pause_menu{
+    display: none;
+} 
+
+.bg{
+    position: absolute;
+    background: #1f1f1fc7;
+    filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgba(0, 0, 0, 0.589));
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 100%;
+}
+ 
+
+.container{
+    position: absolute;
+    left: 1%;
+    top: 10%;
+    width: 450px;
+    height: 600px;
+    /* background-color: rgba(0, 0, 0, 0.377); */
+}
+
+
+#riprendi{
+    position: relative;
+    left: 0%;
+    top: 0%;
+    width: 280px;
+    height: 160px;
+    background: #1F1F1F;
+    filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgba(0, 0, 0, 0.219));
+    /* border: solid 0.1vh rgb(72, 72, 72); */
+    border-radius: 0.9vh;
+    opacity: 1.0;
+    transition: background-color 0.8s ease-out;
+    cursor: pointer;
+}
+
+#riprendi:hover{
+    background-image: url(../ui/sfondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mappa{
+    position: relative;
+    left: 64%;
+    top: -26.6%;
+    width: 160px;
+    height: 160px;
+     background: #1F1F1F;
+    filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgba(0, 0, 0, 0.219));
+    /* border: solid 0.1vh rgb(72, 72, 72); */
+    border: none;
+    border-radius: 0.9vh;
+    opacity: 1.0;
+    transition: background-color 0.8s ease-out;
+    cursor: pointer;
+}
+
+#mappa:hover{
+    background-image: url(../ui/sfondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#opzioni{
+    position: relative;
+    left: 0%;
+    top: -25%;
+    width: 160px;
+    height: 160px;
+     background: #1F1F1F;
+    filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgba(0, 0, 0, 0.219));
+    /* border: solid 0.1vh rgb(72, 72, 72); */
+    border: none;
+    border-radius: 0.9vh;
+    opacity: 1.0;
+    transition: background-color 0.8s ease-out;
+    cursor: pointer;
+}
+
+#opzioni:hover{
+    background-image: url(../ui/sfondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#info{
+    position: relative;
+    left: 37.5%;
+    top: -51.8%;
+    width: 280px;
+    height: 160px;
+     background: #1F1F1F;
+    filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgba(0, 0, 0, 0.219));
+    /* border: solid 0.1vh rgb(72, 72, 72); */
+    border: none;
+    border-radius: 0.9vh;
+    opacity: 1.0;
+    transition: background-color 0.8s ease-out;
+    cursor: pointer;
+}
+
+#info:hover{
+    background-image: url(../ui/sfondo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#discord{
+    position: relative;
+    bottom: 50%;
+    left: 0%;
+    height: 200px;
+    width: 220px;
+    background: #1F1F1F;
+    filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgba(0, 0, 0, 0.219));
+    /* border: solid 0.1vh rgb(72, 72, 72); */
+    border: none;
+    border-radius: 0.9vh;
+    opacity: 1.0;
+    transition: background-color 0.8s ease-out;
+    cursor: pointer;
+}
+
+#discord:hover{
+    background-image: url(../ui/sfondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#disconettiti{
+    position: relative;
+    bottom: 83.2%;
+    left: 51%;
+    height: 200px;
+    width: 220px;
+    background: #1F1F1F;
+    filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgba(0, 0, 0, 0.219));
+    /* border: solid 0.1vh rgb(72, 72, 72); */
+    border: none;
+    border-radius: 0.9vh;
+    opacity: 1.0;
+    transition: background-color 0.8s ease-out;
+    cursor: pointer;
+}
+
+#disconettiti:hover{
+    background-image: url(../ui/sfondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#social{
+    position: relative;
+    bottom: 81.5%;
+    left: -0.1%;
+    width: 449px;
+    height: 160px;
+    background: #1F1F1F;
+    filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgba(0, 0, 0, 0.219));
+    /* border: solid 0.1vh rgb(72, 72, 72); */
+    border: none;
+    border-radius: 0.9vh;
+    opacity: 1.0;
+    transition: background-color 0.8s ease-out;
+    cursor: pointer;
+}
+
+#social:hover{
+    background-image: url(../ui/sfondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.title{
+    position: relative;
+    bottom: 5%;
+    left: 0%;
+    color: white;
+    font-size: 25px;
+    font-family: "Rubik", sans-serif;
+}
+
+.text_resume{
+    position: relative;
+    left: 7%;
+    top: 5%;
+    color: white;
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;
+    text-align: left;
+    z-index: -1;
+}
+
+.img1{
+    position: relative;
+    top: -35%;
+    left: 30%;
+    object-fit: cover;
+    width: 170px;
+    height: 100px;
+}
+
+.text_map{
+    position: absolute;
+    left: 10%;
+    color: white;
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;
+    text-align: left;
+}
+
+.text_settings{
+    position: absolute;
+    left: 10%;
+    color: white;
+    font-size: 15px;
+    font-family: "Rubik", sans-serif;
+    text-align: left;
+}
+
+.text_info {
+    position: absolute;
+    left: 30%;
+    color: white;
+    font-size: 15px;
+    font-family: "Rubik", sans-serif;
+    text-align: left;
+}
+
+#bank, #cash, #job, #name {
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    font-family: "Rubik", sans-serif;
+    left: 12%;
+    display: flex;
+    align-items: center;
+}
+
+#bank {
+    top: 20%;
+}
+
+#cash {
+    top: 40%;
+}
+
+#job {
+    top: 60%;
+}
+
+#name {
+    top: 80%;
+}
+
+#bank i, #cash i, #job i, #name i {
+    position: absolute;
+    color: white;
+    text-align: center;
+    align-items: center;
+    left: 0; 
+    transform: translateX(-50%); 
+    margin: -1.2vh;
+}
+
+.text_discord{
+    position: absolute;
+    left: 10%;
+    color: white;
+    font-size: 15px;
+    font-family: "Rubik", sans-serif;
+    text-align: left;
+}
+
+.text_exit{
+    position: absolute;
+    left: 10%;
+    color: white;
+    font-size: 15px;
+    font-family: "Rubik", sans-serif;
+    text-align: left;
+}
+
+.title2{
+    position: absolute;
+    left: 5%;
+    bottom: 90%;
+    color: white;
+    font-size: 15px;
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+}
